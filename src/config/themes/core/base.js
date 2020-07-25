@@ -5,9 +5,10 @@ export default {
     h1: "46px",
     h2: "28px",
     h3: "24px",
+    medium: "18px",
     paragraph: "16px",
     caption: "14px",
-    small: "12x"
+    small: "12px"
   },
   borderRadius: {
     none: "none",

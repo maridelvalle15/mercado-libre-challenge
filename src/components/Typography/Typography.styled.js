@@ -22,6 +22,10 @@ export const StyledH3 = styled.h3`
   font-size: ${({ theme }) => theme.fontSize.h3};
   ${props => defaultStyles(props)}
 `;
+export const StyledMedium = styled.p`
+  font-size: ${({ theme }) => theme.fontSize.medium};
+  ${props => defaultStyles(props)}
+`;
 export const StyledParagraph = styled.p`
   font-size: ${({ theme }) => theme.fontSize.paragraph};
   ${props => defaultStyles(props)}

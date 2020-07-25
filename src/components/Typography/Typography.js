@@ -5,6 +5,7 @@ import {
   StyledH1,
   StyledH2,
   StyledH3,
+  StyledMedium,
   StyledCaption,
   StyledSmall
 } from "./Typography.styled";
@@ -17,6 +18,8 @@ const renderTypography = props => {
       return <StyledH2 {...props} />;
     case "h3":
       return <StyledH3 {...props} />;
+    case "medium":
+      return <StyledMedium {...props} />;
     case "caption":
       return <StyledCaption {...props} />;
     case "small":
@@ -39,11 +42,19 @@ Typography.propTypes = {
   color: PropTypes.string,
   fontWeight: PropTypes.string,
   textAlign: PropTypes.oneOf(["left", "center", "right", "justify"]),
-  type: PropTypes.oneOf(["h1", "h2", "h3", "paragraph", "caption", "small"])
+  type: PropTypes.oneOf([
+    "h1",
+    "h2",
+    "h3",
+    "medium",
+    "paragraph",
+    "caption",
+    "small"
+  ])
 };
 
 Typography.defaultProps = {
-  color: "primary",
+  color: "normal",
   fontWeight: "normal",
   textAlign: "left",
   type: "paragraph"

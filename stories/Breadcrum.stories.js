@@ -3,7 +3,7 @@ import React from "react";
 import Breadcrumb from "@components/Breadcrumb/Breadcrumb";
 
 export default {
-  title: "Breadcrumb",
+  title: "Global/Breadcrumb",
   component: Breadcrumb
 };
 

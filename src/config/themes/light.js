@@ -7,8 +7,12 @@ export default {
   colors: {
     primary: "#FFE600",
     secondary: "#3483FA",
-    background: "#FFFFFF",
-    backgroundContainer: "#EEEEEE",
+    background: "#EEEEEE",
+    transparent: "transparent",
+    backgroundContainer: "#FFFFFF",
+    icon: {
+      green: "#1ed760"
+    },
     font: {
       light: "#999999",
       normal: "#333333"

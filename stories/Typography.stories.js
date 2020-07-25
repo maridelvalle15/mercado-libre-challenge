@@ -3,7 +3,7 @@ import React from "react";
 import Typography from "@components/Typography/Typography";
 
 export default {
-  title: "Typography",
+  title: "Global/Typography",
   component: Typography
 };
 
