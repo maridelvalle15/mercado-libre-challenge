@@ -7,8 +7,9 @@ export default {
   colors: {
     primary: "#FFE600",
     secondary: "#3483FA",
-    background: "#EEEEEE",
-    fontColor: {
+    background: "#FFFFFF",
+    backgroundContainer: "#EEEEEE",
+    font: {
       light: "#999999",
       normal: "#333333"
     }

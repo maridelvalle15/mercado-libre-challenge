@@ -2,10 +2,12 @@ import breakpoints from "./breakpoints";
 
 export default {
   fontSize: {
-    h1: "2rem",
-    h2: "1.5rem",
-    h3: "1.125rem",
-    paragraph: "1rem"
+    h1: "46px",
+    h2: "28px",
+    h3: "24px",
+    paragraph: "16px",
+    caption: "14px",
+    small: "12x"
   },
   borderRadius: {
     none: "none",

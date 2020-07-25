@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import LightTheme from "@config/themes/light";
 import { ThemeProvider } from "styled-components";
+import ResetStyles from "@config/themes/core/reset";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import App from "@config/app";
@@ -19,6 +20,7 @@ const RootComponent = () => {
   if (isReady) {
     return (
       <ThemeProvider theme={LightTheme}>
+        <ResetStyles />
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />

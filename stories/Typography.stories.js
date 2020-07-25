@@ -8,5 +8,5 @@ export default {
 };
 
 export const Default = () => (
-  <Typography type="h1">Example of Typography component</Typography>
+  <Typography type="h3">Example of Typography component</Typography>
 );

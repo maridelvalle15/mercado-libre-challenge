@@ -3,7 +3,7 @@ import styled from "styled-components";
 const defaultStyles = props => {
   const { theme, color, textAlign, fontWeight } = props;
   return `
-    color: ${theme.colors.fontColor[color]};
+    color: ${theme.colors.font[color]};
     text-align: ${textAlign};
     font-weight: ${fontWeight};
     font-family: ${theme.fontFamily};
@@ -24,5 +24,13 @@ export const StyledH3 = styled.h3`
 `;
 export const StyledParagraph = styled.p`
   font-size: ${({ theme }) => theme.fontSize.paragraph};
+  ${props => defaultStyles(props)}
+`;
+export const StyledCaption = styled.p`
+  font-size: ${({ theme }) => theme.fontSize.caption};
+  ${props => defaultStyles(props)}
+`;
+export const StyledSmall = styled.p`
+  font-size: ${({ theme }) => theme.fontSize.small};
   ${props => defaultStyles(props)}
 `;
