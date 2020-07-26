@@ -6,16 +6,23 @@
   "author": "Jonathan Buitrago <jonathan.buitrago@grability.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
+    "start:client": "webpack-dev-server --open --mode development",
+    "start:server": "nodemon ./server",
     "build": "webpack --mode production",
     "storybook": "start-storybook --docs",
     "test": "jest --config ./jest.config.json"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -33,6 +40,7 @@
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
     "path": "^0.12.7",
     "react-scripts": "^3.4.1",
     "react-test-renderer": "^16.13.1",
