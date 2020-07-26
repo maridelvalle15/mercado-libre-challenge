@@ -4,6 +4,7 @@ import shippingIcon from "@assets/images/shipping.png";
 export const StyledProductCard = styled.div`
   display: flex;
   flex: 2;
+  cursor: pointer;
   flex-direction: row;
   margin: ${({ theme }) => theme.spacing(2)};
   margin-bottom: 0;
@@ -35,13 +36,16 @@ export const StyledProductDescription = styled.div`
   padding: ${({ theme }) => theme.spacing(2)} 0;
   h3 {
     margin-bottom: ${({ theme }) => theme.spacing(4)};
+    ${({ theme }) => theme.breakpoints.sm} {
+      margin-bottom: ${({ theme }) => theme.spacing(1)};
+    }
   }
 `;
 
 export const StyledProductShipping = styled.div`
   border-radius: ${({ theme }) => theme.borderRadius.total};
   margin-left: ${({ theme }) => theme.spacing(1)};
-  margin-top: ${({ theme }) => theme.spacing(1)};
+  margin-top: ${({ theme }) => theme.spacing(0.5)};
   background: url(${shippingIcon});
   background-repeat: no-repeat;
   background-position: center;
@@ -53,4 +57,7 @@ export const StyledProductShipping = styled.div`
 export const StyledProductLocation = styled.div`
   padding: ${({ theme }) => theme.spacing(4)} 0;
   flex: 3;
+  ${({ theme }) => theme.breakpoints.sm} {
+    display: none;
+  }
 `;

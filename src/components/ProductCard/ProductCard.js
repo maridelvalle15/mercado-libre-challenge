@@ -11,7 +11,15 @@ import {
   StyledProductImageContainer
 } from "./ProductCard.styled.js";
 
-const ProductCard = ({ image, price, title, location, freeShipping }) => {
+const ProductCard = ({
+  id,
+  image,
+  price,
+  title,
+  location,
+  freeShipping,
+  onClick
+}) => {
   const renderPrice = () =>
     freeShipping ? (
       <>
@@ -23,7 +31,7 @@ const ProductCard = ({ image, price, title, location, freeShipping }) => {
     );
 
   return (
-    <StyledProductCard>
+    <StyledProductCard onClick={() => onClick(id)}>
       <StyledProductImageContainer>
         <StyledImage src={image} />
       </StyledProductImageContainer>
@@ -45,6 +53,7 @@ const ProductCard = ({ image, price, title, location, freeShipping }) => {
 ProductCard.propTypes = {
   image: PropTypes.string,
   freeShipping: PropTypes.bool,
+  id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired

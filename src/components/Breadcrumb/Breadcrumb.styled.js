@@ -3,18 +3,17 @@ import styled from "styled-components";
 export const StyledBreadcrumb = styled.div`
   display: flex;
   flex-direction: row;
+  padding: ${({ theme }) => theme.spacing(2)} 0;
+  min-width: 100%;
 `;
 
 export const StyledCategory = styled.div`
   cursor: pointer;
-  color: ${({ theme }) => theme.colors.font.light};
   position: relative;
   padding-right: ${({ theme }) => theme.spacing(3)};
-  &:hover {
-    color: ${({ theme }) => theme.colors.font.normal};
-  }
   &:after {
     position: absolute;
+    color: ${({ theme }) => theme.colors.font.light};
     content: "›";
     top: -4px;
     font-size: 20px;

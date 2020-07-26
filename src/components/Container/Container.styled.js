@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  flex-direction: row;
+  flex-direction: ${({ direction }) => direction};
   max-width: 1200px;
   margin: 0 auto;
   display: flex;

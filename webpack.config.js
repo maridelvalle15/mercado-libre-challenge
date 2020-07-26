@@ -22,18 +22,6 @@ module.exports = {
         ]
       },
       {
-        test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[ext]",
-              outputPath: "assets/fonts"
-            }
-          }
-        ]
-      },
-      {
         test: /\.(png|jpg|woff|woff2|eot|ttf|ico)$/,
         loader: "url-loader?limit=100000&name=fonts/[name].[ext]"
       },
@@ -54,6 +42,7 @@ module.exports = {
     extensions: ["*", ".js", ".jsx", ".scss"],
     alias: {
       "@components": path.resolve(__dirname, "src/components"),
+      "@layouts": path.resolve(__dirname, "src/layouts"),
       "@assets": path.resolve(__dirname, "src/assets"),
       "@config": path.resolve(__dirname, "src/config"),
       "@pages": path.resolve(__dirname, "src/pages")

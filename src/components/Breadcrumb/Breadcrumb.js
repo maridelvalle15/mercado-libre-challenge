@@ -7,8 +7,10 @@ import { StyledBreadcrumb, StyledCategory } from "./Breadcrumb.styled";
 const Breadcrumb = ({ categories }) => {
   const renderCategories = () =>
     categories.map(category => (
-      <StyledCategory>
-        <Typography type="caption"> {category} </Typography>
+      <StyledCategory key={category}>
+        <Typography type="caption" color="light">
+          {category}
+        </Typography>
       </StyledCategory>
     ));
   return <StyledBreadcrumb>{renderCategories()}</StyledBreadcrumb>;

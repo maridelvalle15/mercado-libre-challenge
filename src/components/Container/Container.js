@@ -3,17 +3,17 @@ import PropTypes from "prop-types";
 
 import StyledContainer from "./Container.styled";
 
-const Container = ({ background, children }) => {
-  return <StyledContainer>{children}</StyledContainer>;
+const Container = ({ children, direction }) => {
+  return <StyledContainer direction={direction}>{children}</StyledContainer>;
 };
 
 Container.propTypes = {
-  background: PropTypes.string,
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  direction: PropTypes.oneOf(["row", "column"])
 };
 
 Container.defaultProps = {
-  background: "transparent"
+  direction: "column"
 };
 
 export default Container;

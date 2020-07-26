@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import LightTheme from "@config/themes/light";
-import { ThemeProvider } from "styled-components";
 import ResetStyles from "@config/themes/core/reset";
+import { ThemeProvider } from "styled-components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import App from "@config/app";

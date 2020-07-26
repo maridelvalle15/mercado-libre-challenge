@@ -20,7 +20,7 @@ const SearchBar = ({ logo, placeholder, onSearch }) => {
   };
   return (
     <StyledSearchBar>
-      <Container>
+      <Container direction="row">
         <StyledLogoContainer>
           <StyledLogo src={logo} />
         </StyledLogoContainer>

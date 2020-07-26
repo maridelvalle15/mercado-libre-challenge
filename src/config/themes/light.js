@@ -9,13 +9,14 @@ export default {
     secondary: "#3483FA",
     background: "#EEEEEE",
     transparent: "transparent",
-    backgroundContainer: "#FFFFFF",
+    backgroundContent: "#FFFFFF",
     icon: {
       green: "#1ed760"
     },
     font: {
       light: "#999999",
-      normal: "#333333"
+      normal: "#333333",
+      reverse: "#ffffff"
     }
   }
 };

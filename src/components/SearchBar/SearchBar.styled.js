@@ -18,7 +18,7 @@ export const StyledLogo = styled.img`
 
 export const StyledSearchContainer = styled.div`
   position: relative;
-  flex: 9;
+  flex: 14;
 `;
 
 export const StyledSearchInput = styled.input`
@@ -31,13 +31,15 @@ export const StyledSearchInput = styled.input`
   border: none;
   height: 100%;
   width: 100%;
+  ::placeholder {
+    color: ${({ theme }) => theme.colors.font.light};
+  }
 `;
 
 export const StyledSearchButton = styled.div`
   border-radius: ${({ theme }) =>
     `0  ${theme.borderRadius.normal} ${theme.borderRadius.normal} 0`};
-  background: url(${searchIcon}), ${({ theme }) => theme.colors.icon.green};
-  color: ${({ theme }) => theme.colors.font.light};
+  background: url(${searchIcon}), ${({ theme }) => theme.colors.background};
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
