@@ -56,7 +56,8 @@ ProductCard.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired
+  location: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired
 };
 
 ProductCard.defaultProps = {

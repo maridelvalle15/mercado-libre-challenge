@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb should render 1`] = `
+<div
+  className="sc-1xiawl8-0 cNhnMp"
+>
+  <div
+    className="sc-1xiawl8-1 hawODv"
+  >
+    <p
+      className="obo2vd-5 eSFdva"
+      color="light"
+      fontWeight="normal"
+      type="caption"
+    >
+      Video juegos
+    </p>
+  </div>
+  <div
+    className="sc-1xiawl8-1 hawODv"
+  >
+    <p
+      className="obo2vd-5 eSFdva"
+      color="light"
+      fontWeight="normal"
+      type="caption"
+    >
+      Nintendo
+    </p>
+  </div>
+  <div
+    className="sc-1xiawl8-1 hawODv"
+  >
+    <p
+      className="obo2vd-5 eSFdva"
+      color="light"
+      fontWeight="normal"
+      type="caption"
+    >
+      Nintendo switch
+    </p>
+  </div>
+</div>
+`;

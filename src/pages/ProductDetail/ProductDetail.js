@@ -27,7 +27,7 @@ const ProductDetail = () => {
         </StyledImageContainer>
         <StyledInformation>
           <Typography type="caption">
-            {product.condition} - {product.sold_quantity} vendidos
+            {`${product.condition} - ${product.sold_quantity} vendidos`}
           </Typography>
           <Typography type="h3" fontWeight="800">
             {product.title}

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard should render with freeShipping 1`] = `
+<div
+  className="y2k85v-0 jxQjHS"
+  onClick={[Function]}
+>
+  <div
+    className="y2k85v-1 kIXagQ"
+  >
+    <img
+      className="y2k85v-2 fIdIsj"
+      src="https://picsum.photos/id/180/180/180"
+    />
+  </div>
+  <div
+    className="y2k85v-3 bdLeSw"
+  >
+    <div
+      className="y2k85v-4 fUuhkr"
+    >
+      <h3
+        className="obo2vd-2 dwHcWW"
+        color="normal"
+        fontWeight="normal"
+        type="h3"
+      >
+        $
+        1.980
+        <div
+          className="y2k85v-5 dvNhyE"
+        />
+      </h3>
+      <p
+        className="obo2vd-3 hxdhNI"
+        color="normal"
+        fontWeight="normal"
+        type="medium"
+      >
+        Macbook pro retina 2020 casi nuevo completo unico fabuloso!
+      </p>
+    </div>
+    <div
+      className="y2k85v-6 bkcQQl"
+    >
+      <p
+        className="obo2vd-6 dYbffT"
+        color="normal"
+        fontWeight="normal"
+        type="small"
+      >
+        Mendoza
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProductCard should render without freeShipping 1`] = `
+<div
+  className="y2k85v-0 jxQjHS"
+  onClick={[Function]}
+>
+  <div
+    className="y2k85v-1 kIXagQ"
+  >
+    <img
+      className="y2k85v-2 fIdIsj"
+      src="https://picsum.photos/id/180/180/180"
+    />
+  </div>
+  <div
+    className="y2k85v-3 bdLeSw"
+  >
+    <div
+      className="y2k85v-4 fUuhkr"
+    >
+      <h3
+        className="obo2vd-2 dwHcWW"
+        color="normal"
+        fontWeight="normal"
+        type="h3"
+      >
+        $ 1.980
+      </h3>
+      <p
+        className="obo2vd-3 hxdhNI"
+        color="normal"
+        fontWeight="normal"
+        type="medium"
+      >
+        Macbook pro retina 2020 casi nuevo completo unico fabuloso!
+      </p>
+    </div>
+    <div
+      className="y2k85v-6 bkcQQl"
+    >
+      <p
+        className="obo2vd-6 dYbffT"
+        color="normal"
+        fontWeight="normal"
+        type="small"
+      >
+        Mendoza
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetail should render 1`] = `
+<div>
+  <div
+    className="sc-1yye7vx-0 fqiRkl"
+  >
+    <div
+      className="sc-1ctswtc-0 kWOxtL"
+      direction="row"
+    >
+      <div
+        className="sc-1yye7vx-1 tIPbA"
+      >
+        <img
+          className="sc-1yye7vx-2 dqNuJn"
+          src="test-file-stub"
+        />
+      </div>
+      <div
+        className="sc-1yye7vx-3 bhyxsm"
+      >
+        <input
+          className="sc-1yye7vx-4 ixEbfT"
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Nunca dejes de buscar"
+        />
+        <div
+          className="sc-1yye7vx-5 jIjCdQ"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-1ctswtc-0 dyKYyT"
+    direction="column"
+  >
+    <div
+      className="sc-1xiawl8-0 cNhnMp"
+    >
+      <div
+        className="sc-1xiawl8-1 hawODv"
+      >
+        <p
+          className="obo2vd-5 eSFdva"
+          color="light"
+          fontWeight="normal"
+          type="caption"
+        >
+          Video juegos
+        </p>
+      </div>
+      <div
+        className="sc-1xiawl8-1 hawODv"
+      >
+        <p
+          className="obo2vd-5 eSFdva"
+          color="light"
+          fontWeight="normal"
+          type="caption"
+        >
+          Nintendo
+        </p>
+      </div>
+      <div
+        className="sc-1xiawl8-1 hawODv"
+      >
+        <p
+          className="obo2vd-5 eSFdva"
+          color="light"
+          fontWeight="normal"
+          type="caption"
+        >
+          Nintendo switch
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-1aj4ngk-0 gPvuPT"
+    >
+      <div
+        className="sc-1wq06i5-0 hILwOQ"
+      >
+        <div
+          className="sc-1wq06i5-1 duyGsG"
+        >
+          <img
+            className="sc-1wq06i5-2 kCFOnt"
+            src="https://picsum.photos/id/180/680/680"
+          />
+        </div>
+        <div
+          className="sc-1wq06i5-3 gknzFN"
+        >
+          <p
+            className="obo2vd-5 ggbdLa"
+            color="normal"
+            fontWeight="normal"
+            type="caption"
+          >
+            Nuevo - 200 vendidos
+          </p>
+          <h3
+            className="obo2vd-2 dWGNeB"
+            color="normal"
+            fontWeight="800"
+            type="h3"
+          >
+            Deco master test Oxford magic
+          </h3>
+          <h1
+            className="obo2vd-0 dzSENk"
+            color="normal"
+            fontWeight="normal"
+            type="h1"
+          >
+            $ 
+            1.900
+          </h1>
+          <button
+            className="sc-19fth86-0 ffTFqm"
+            color="secondary"
+            onClick={[Function]}
+          >
+            Comprar
+          </button>
+        </div>
+      </div>
+      <div
+        className="sc-1wq06i5-4 hOuWfT"
+      >
+        <h2
+          className="obo2vd-1 hKPWyF"
+          color="normal"
+          fontWeight="normal"
+          type="h2"
+        >
+          Descripcion del product
+        </h2>
+        <p
+          className="obo2vd-4 dtFZux"
+          color="normal"
+          fontWeight="normal"
+          type="paragraph"
+        >
+          Elit aliquip aliquip in ullamco consequat voluptate. Ea ipsum excepteur nostrud proident. Fugiat irure aliqua ad culpa quis Lorem eiusmod in veniam Lorem. Elit aliquip aliquip in ullamco consequat voluptate. Ea ipsum excepteur nostrud proident. Fugiat irure aliqua ad culpa quis Lorem eiusmod in veniam Lorem.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

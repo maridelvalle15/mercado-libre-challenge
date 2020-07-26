@@ -27,6 +27,9 @@ export const StyledInformation = styled.div`
   h3 {
     padding-top: ${({ theme }) => theme.spacing(2)};
     max-width: 60%;
+    ${({ theme }) => theme.breakpoints.sm} {
+      max-width: 100%;
+    }
   }
   h1 {
     padding: ${({ theme }) => theme.spacing(4)} 0;
@@ -34,12 +37,13 @@ export const StyledInformation = styled.div`
 `;
 
 export const StyledDescription = styled.div`
-  flex: 6;
+  width: 60%;
   padding: ${({ theme }) => theme.spacing(4)};
   h2 {
     padding-bottom: ${({ theme }) => theme.spacing(4)};
   }
   ${({ theme }) => theme.breakpoints.sm} {
+    width: auto;
     flex: 1;
   }
 `;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar should render 1`] = `
+<div
+  className="sc-1yye7vx-0 fqiRkl"
+>
+  <div
+    className="sc-1ctswtc-0 kWOxtL"
+    direction="row"
+  >
+    <div
+      className="sc-1yye7vx-1 tIPbA"
+    >
+      <img
+        className="sc-1yye7vx-2 dqNuJn"
+        src="potato.png"
+      />
+    </div>
+    <div
+      className="sc-1yye7vx-3 bhyxsm"
+    >
+      <input
+        className="sc-1yye7vx-4 ixEbfT"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Nunca dejes de buscar"
+      />
+      <div
+        className="sc-1yye7vx-5 jIjCdQ"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

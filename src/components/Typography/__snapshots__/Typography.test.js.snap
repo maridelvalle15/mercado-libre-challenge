@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography should render h1 tag 1`] = `
+<h1
+  className="obo2vd-0 dzSENk"
+  color="normal"
+  fontWeight="normal"
+  type="h1"
+>
+  Example of Typography component
+</h1>
+`;
+
+exports[`Typography should render p tag 1`] = `
+<p
+  className="obo2vd-4 dtFZux"
+  color="normal"
+  fontWeight="normal"
+  type="paragraph"
+>
+  Example of Typography component
+</p>
+`;

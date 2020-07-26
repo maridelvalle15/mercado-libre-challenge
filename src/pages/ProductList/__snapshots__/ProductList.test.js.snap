@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList should render 1`] = `
+<div>
+  <div
+    className="sc-1yye7vx-0 fqiRkl"
+  >
+    <div
+      className="sc-1ctswtc-0 kWOxtL"
+      direction="row"
+    >
+      <div
+        className="sc-1yye7vx-1 tIPbA"
+      >
+        <img
+          className="sc-1yye7vx-2 dqNuJn"
+          src="test-file-stub"
+        />
+      </div>
+      <div
+        className="sc-1yye7vx-3 bhyxsm"
+      >
+        <input
+          className="sc-1yye7vx-4 ixEbfT"
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Nunca dejes de buscar"
+        />
+        <div
+          className="sc-1yye7vx-5 jIjCdQ"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-1ctswtc-0 dyKYyT"
+    direction="column"
+  >
+    <div
+      className="sc-1xiawl8-0 cNhnMp"
+    >
+      <div
+        className="sc-1xiawl8-1 hawODv"
+      >
+        <p
+          className="obo2vd-5 eSFdva"
+          color="light"
+          fontWeight="normal"
+          type="caption"
+        >
+          Video juegos
+        </p>
+      </div>
+      <div
+        className="sc-1xiawl8-1 hawODv"
+      >
+        <p
+          className="obo2vd-5 eSFdva"
+          color="light"
+          fontWeight="normal"
+          type="caption"
+        >
+          Nintendo
+        </p>
+      </div>
+      <div
+        className="sc-1xiawl8-1 hawODv"
+      >
+        <p
+          className="obo2vd-5 eSFdva"
+          color="light"
+          fontWeight="normal"
+          type="caption"
+        >
+          Nintendo switch
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-1aj4ngk-0 gPvuPT"
+    >
+      <div
+        className="y2k85v-0 jxQjHS"
+        onClick={[Function]}
+      >
+        <div
+          className="y2k85v-1 kIXagQ"
+        >
+          <img
+            className="y2k85v-2 fIdIsj"
+            src="https://picsum.photos/id/180/180/180"
+          />
+        </div>
+        <div
+          className="y2k85v-3 bdLeSw"
+        >
+          <div
+            className="y2k85v-4 fUuhkr"
+          >
+            <h3
+              className="obo2vd-2 dwHcWW"
+              color="normal"
+              fontWeight="normal"
+              type="h3"
+            >
+              $
+              1.980
+              <div
+                className="y2k85v-5 dvNhyE"
+              />
+            </h3>
+            <p
+              className="obo2vd-3 hxdhNI"
+              color="normal"
+              fontWeight="normal"
+              type="medium"
+            >
+              Macbook pro retina 2020 casi nuevo completo unico fabuloso! casi nuevo completo unico fabuloso!
+            </p>
+          </div>
+          <div
+            className="y2k85v-6 bkcQQl"
+          >
+            <p
+              className="obo2vd-6 dYbffT"
+              color="normal"
+              fontWeight="normal"
+              type="small"
+            >
+              Mendoza
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="y2k85v-0 jxQjHS"
+        onClick={[Function]}
+      >
+        <div
+          className="y2k85v-1 kIXagQ"
+        >
+          <img
+            className="y2k85v-2 fIdIsj"
+            src="https://picsum.photos/id/180/180/180"
+          />
+        </div>
+        <div
+          className="y2k85v-3 bdLeSw"
+        >
+          <div
+            className="y2k85v-4 fUuhkr"
+          >
+            <h3
+              className="obo2vd-2 dwHcWW"
+              color="normal"
+              fontWeight="normal"
+              type="h3"
+            >
+              $
+              1.980
+              <div
+                className="y2k85v-5 dvNhyE"
+              />
+            </h3>
+            <p
+              className="obo2vd-3 hxdhNI"
+              color="normal"
+              fontWeight="normal"
+              type="medium"
+            >
+              Macbook pro retina 2020 casi nuevo completo unico fabuloso! casi nuevo completo unico fabuloso!
+            </p>
+          </div>
+          <div
+            className="y2k85v-6 bkcQQl"
+          >
+            <p
+              className="obo2vd-6 dYbffT"
+              color="normal"
+              fontWeight="normal"
+              type="small"
+            >
+              Mendoza
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="y2k85v-0 jxQjHS"
+        onClick={[Function]}
+      >
+        <div
+          className="y2k85v-1 kIXagQ"
+        >
+          <img
+            className="y2k85v-2 fIdIsj"
+            src="https://picsum.photos/id/180/180/180"
+          />
+        </div>
+        <div
+          className="y2k85v-3 bdLeSw"
+        >
+          <div
+            className="y2k85v-4 fUuhkr"
+          >
+            <h3
+              className="obo2vd-2 dwHcWW"
+              color="normal"
+              fontWeight="normal"
+              type="h3"
+            >
+              $
+              1.980
+              <div
+                className="y2k85v-5 dvNhyE"
+              />
+            </h3>
+            <p
+              className="obo2vd-3 hxdhNI"
+              color="normal"
+              fontWeight="normal"
+              type="medium"
+            >
+              Macbook pro retina 2020 casi nuevo completo unico fabuloso! casi nuevo completo unico fabuloso!
+            </p>
+          </div>
+          <div
+            className="y2k85v-6 bkcQQl"
+          >
+            <p
+              className="obo2vd-6 dYbffT"
+              color="normal"
+              fontWeight="normal"
+              type="small"
+            >
+              Mendoza
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="y2k85v-0 jxQjHS"
+        onClick={[Function]}
+      >
+        <div
+          className="y2k85v-1 kIXagQ"
+        >
+          <img
+            className="y2k85v-2 fIdIsj"
+            src="https://picsum.photos/id/180/180/180"
+          />
+        </div>
+        <div
+          className="y2k85v-3 bdLeSw"
+        >
+          <div
+            className="y2k85v-4 fUuhkr"
+          >
+            <h3
+              className="obo2vd-2 dwHcWW"
+              color="normal"
+              fontWeight="normal"
+              type="h3"
+            >
+              $
+              1.980
+              <div
+                className="y2k85v-5 dvNhyE"
+              />
+            </h3>
+            <p
+              className="obo2vd-3 hxdhNI"
+              color="normal"
+              fontWeight="normal"
+              type="medium"
+            >
+              Macbook pro retina 2020 casi nuevo completo unico fabuloso! casi nuevo completo unico fabuloso!
+            </p>
+          </div>
+          <div
+            className="y2k85v-6 bkcQQl"
+          >
+            <p
+              className="obo2vd-6 dYbffT"
+              color="normal"
+              fontWeight="normal"
+              type="small"
+            >
+              Mendoza
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

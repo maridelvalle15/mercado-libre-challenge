@@ -1,30 +1,33 @@
 import React from "react";
-import Typography from "./Typography";
+import Button from "./Button";
 import { mount } from "enzyme";
 
 import renderer from "react-test-renderer";
 import LightTheme from "@config/themes/light";
 import { ThemeProvider } from "styled-components";
 
-describe("Typography", () => {
-  test("should render h1 tag", () => {
+describe("Button", () => {
+  test("should render", () => {
     const component = renderer.create(
       <ThemeProvider theme={LightTheme}>
-        <Typography type="h1">Example of Typography component</Typography>
+        <Button color="secondary" onClick={() => console.log("asd")}>
+          Button
+        </Button>
       </ThemeProvider>
     );
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test("should render p tag", () => {
-    const component = renderer.create(
+  test("should call onClick event", () => {
+    const spy = jest.fn();
+    const wrapper = mount(
       <ThemeProvider theme={LightTheme}>
-        <Typography type="paragraph">
-          Example of Typography component
-        </Typography>
+        <Button color="secondary" onClick={spy}>
+          Button
+        </Button>
       </ThemeProvider>
     );
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    wrapper.find("button").simulate("click");
+    expect(spy).toHaveBeenCalled();
   });
 });

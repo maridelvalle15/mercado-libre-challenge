@@ -13,7 +13,6 @@ const RootComponent = () => {
   const [isReady, setIsReady] = useState(false);
   useEffect(() => {
     App.boot().then(() => {
-      console.log(App.api);
       setIsReady(true);
     });
   }, []);

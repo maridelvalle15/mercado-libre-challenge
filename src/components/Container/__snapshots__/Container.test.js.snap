@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should render 1`] = `
+<div
+  className="sc-1ctswtc-0 dyKYyT"
+  direction="column"
+>
+  <p>
+    Magic container
+  </p>
+</div>
+`;

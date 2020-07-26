@@ -14,5 +14,6 @@ export const Default = () => (
     title="Macbook pro retina 2020 casi nuevo completo unico fabuloso!"
     location="Mendoza"
     freeShipping={true}
+    onClick={id => console.log(id)}
   />
 );
