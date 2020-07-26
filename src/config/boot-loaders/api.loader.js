@@ -25,5 +25,4 @@ class ApiLoader {
   }
 }
 
-
 export default ApiLoader;

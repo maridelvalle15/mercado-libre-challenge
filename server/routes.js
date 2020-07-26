@@ -1,5 +1,5 @@
 // Resolvers
-const getItemsResolver = require("./resolvers/get-items.resolver");
+const getProductsResolver = require("./resolvers/get-products.resolver");
 
 const GET = "get";
 const POST = "post";
@@ -32,7 +32,7 @@ const routes = [
    *       200:
    *         description: get items
    */
-  [GET, "/api/items", getItemsResolver.getItemsByTerm],
+  [GET, "/api/items", getProductsResolver.getByTerm],
 
   /**
    * @swagger
@@ -53,7 +53,7 @@ const routes = [
    *       200:
    *         description: get product
    */
-  [GET, "/api/items/:id", getItemsResolver.getItemByID]
+  [GET, "/api/items/:id", getProductsResolver.getByID]
 ];
 
 module.exports = routes;
