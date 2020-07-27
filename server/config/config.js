@@ -5,11 +5,19 @@ module.exports = {
       endpoints: {
         searchProduct: {
           method: "get",
-          uri: "/sites/MLA/search?q=query"
+          uri: "/sites/MLA/search?q=query&limit=4"
         },
         productDetail: {
           method: "get",
           uri: "/items/id"
+        },
+        productDescription: {
+          method: "get",
+          uri: "/items/id/description"
+        },
+        user: {
+          method: "get",
+          uri: "/users/id"
         }
       }
     }

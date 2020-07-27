@@ -6,10 +6,24 @@ const getProductByTerm = async term => {
 };
 
 const getProductByID = async id => {
-  const response = await app.api.mercadoLibre.productDetail({
+  const { api } = app;
+  const product = await api.mercadoLibre.productDetail({
     id
   });
-  return await response.json();
+  const productJSON = await product.json();
+  const description = await api.mercadoLibre.productDescription({
+    id
+  });
+  const descriptionJSON = await description.json();
+  const user = await api.mercadoLibre.user({
+    id: productJSON.seller_id
+  });
+  const userJSON = await user.json();
+  return {
+    ...productJSON,
+    ...descriptionJSON,
+    ...userJSON
+  };
 };
 
 module.exports = { getProductByTerm, getProductByID };
