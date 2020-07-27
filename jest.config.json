@@ -2,11 +2,11 @@
   "testRegex": "((\\.|/*.)(test))\\.js?$",
   "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"],
   "moduleNameMapper": {
-    ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "<rootDir>/src/config/__mocks__/fileMock.js",
-    "^@components/(.*)$": "<rootDir>/src/components/$1",
-    "^@layouts/(.*)$": "<rootDir>/src/layouts/$1",
-    "^@assets/(.*)$": "<rootDir>/src/assets/$1",
-    "^@config/(.*)$": "<rootDir>/src/config/$1",
-    "^@pages/(.*)$": "<rootDir>/src/pages/$1"
+    ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "<rootDir>/client/config/__mocks__/fileMock.js",
+    "^@components/(.*)$": "<rootDir>/client/components/$1",
+    "^@layouts/(.*)$": "<rootDir>/client/layouts/$1",
+    "^@assets/(.*)$": "<rootDir>/client/assets/$1",
+    "^@config/(.*)$": "<rootDir>/client/config/$1",
+    "^@pages/(.*)$": "<rootDir>/client/pages/$1"
   }
 }

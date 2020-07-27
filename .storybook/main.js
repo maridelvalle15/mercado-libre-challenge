@@ -11,9 +11,9 @@ module.exports = {
       resolve: {
         ...config.resolve,
         alias: {
-          "@config": path.resolve(__dirname, "../src/config"),
-          "@assets": path.resolve(__dirname, "../src/assets"),
-          "@components": path.resolve(__dirname, "../src/components")
+          "@config": path.resolve(__dirname, "../client/config"),
+          "@assets": path.resolve(__dirname, "../client/assets"),
+          "@components": path.resolve(__dirname, "../client/components")
         }
       }
     };

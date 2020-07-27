@@ -3,7 +3,7 @@ const Dotenv = require("dotenv-webpack");
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./client/index.js",
   module: {
     rules: [
       {
@@ -41,11 +41,11 @@ module.exports = {
   resolve: {
     extensions: ["*", ".js", ".jsx", ".scss"],
     alias: {
-      "@components": path.resolve(__dirname, "src/components"),
-      "@layouts": path.resolve(__dirname, "src/layouts"),
-      "@assets": path.resolve(__dirname, "src/assets"),
-      "@config": path.resolve(__dirname, "src/config"),
-      "@pages": path.resolve(__dirname, "src/pages")
+      "@components": path.resolve(__dirname, "client/components"),
+      "@layouts": path.resolve(__dirname, "client/layouts"),
+      "@assets": path.resolve(__dirname, "client/assets"),
+      "@config": path.resolve(__dirname, "client/config"),
+      "@pages": path.resolve(__dirname, "client/pages")
     }
   },
   output: {
@@ -54,13 +54,13 @@ module.exports = {
     filename: "bundle.js"
   },
   devServer: {
-    contentBase: "./src",
+    contentBase: "./client",
     historyApiFallback: true
   },
   plugins: [
     new Dotenv(),
     new HtmlWebPackPlugin({
-      template: "./src/index.html",
+      template: "./client/index.html",
       filename: "./index.html"
     })
   ]
