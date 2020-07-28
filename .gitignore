@@ -9,3 +9,6 @@ node_modules/
 
 # generate output
 build
+
+# yarn
+yarn-error.log
