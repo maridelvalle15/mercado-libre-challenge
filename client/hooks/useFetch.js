@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const useFetch = request => {
+const useFetch = (request, key = "") => {
   const [response, setResponse] = useState(null);
   const [error, setError] = useState(null);
   useEffect(() => {
@@ -14,7 +14,7 @@ const useFetch = request => {
       }
     };
     fetchData();
-  }, []);
+  }, [key]);
   return { response, error };
 };
 

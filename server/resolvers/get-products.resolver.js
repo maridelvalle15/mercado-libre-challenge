@@ -24,7 +24,6 @@ const getByID = async (req, res) => {
     const response = await getProductByID(id);
     res.status(OK).json(serializeProduct(response));
   } catch (error) {
-    console.log(error);
     res.status(PRECONDITION_FAILED).json({ error: "Server Error" });
   }
 };

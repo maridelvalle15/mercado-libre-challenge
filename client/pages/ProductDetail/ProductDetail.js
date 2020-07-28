@@ -51,7 +51,7 @@ const ProductDetail = () => {
             </StyledInformation>
           </StyledHead>
           <StyledDescription>
-            <Typography type="h2">Descripcion del product</Typography>
+            <Typography type="h2">Descripcion del producto</Typography>
             <Typography>{response.item.description}</Typography>
           </StyledDescription>
         </>

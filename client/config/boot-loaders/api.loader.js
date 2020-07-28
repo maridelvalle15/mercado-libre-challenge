@@ -1,7 +1,7 @@
 const createEndpoint = api => {
-  const tales = {};
+  const endpoint = {};
   Object.keys(api.endpoints).forEach(key => {
-    tales[key] = params => {
+    endpoint[key] = params => {
       let uri = api.endpoints[key].uri;
       Object.keys(params).forEach(param => {
         uri = uri.replace(param, params[param]);
@@ -11,7 +11,7 @@ const createEndpoint = api => {
       });
     };
   });
-  return tales;
+  return endpoint;
 };
 
 class ApiLoader {

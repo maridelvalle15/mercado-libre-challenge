@@ -13,25 +13,28 @@ const ProductList = ({ search }) => {
   const history = useHistory();
   const termToSearch = query.get("search");
   const { response, error, isLoading } = useFetch(
-    App.api.mercadoLibre.searchProduct({ query: termToSearch })
+    App.api.mercadoLibre.searchProduct({ query: termToSearch }),
+    termToSearch
   );
   const navigateToDetail = id => {
     history.push(`/items/${id}`);
   };
   const renderProducts = () => {
     const { items } = response;
-    return items.map(({ id, price, picture, title, free_shipping }) => (
-      <ProductCard
-        id={id}
-        key={id}
-        image={picture}
-        price={price.amount}
-        title={title}
-        location="Mendoza"
-        freeShipping={free_shipping}
-        onClick={id => navigateToDetail(id)}
-      />
-    ));
+    return items.map(
+      ({ id, price, picture, title, location, free_shipping }) => (
+        <ProductCard
+          id={id}
+          key={id}
+          image={picture}
+          price={price.amount}
+          title={title}
+          location={location}
+          freeShipping={free_shipping}
+          onClick={id => navigateToDetail(id)}
+        />
+      )
+    );
   };
 
   return (
