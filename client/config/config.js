@@ -1,15 +1,15 @@
 export default {
   apis: {
     mercadoLibre: {
-      baseURL: "https://api.mercadolibre.com/",
+      baseURL: "http://localhost:8080/api",
       endpoints: {
         searchProduct: {
           method: "get",
-          uri: "/sites/MLA/search?q=​%query%"
+          uri: "/items?q=query"
         },
         productDetail: {
           method: "get",
-          uri: "/items/​%query%"
+          uri: "/items/id"
         }
       }
     }

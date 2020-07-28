@@ -21,10 +21,10 @@ const getByID = async (req, res) => {
   try {
     const splittedUrl = req.url.split("/");
     const id = splittedUrl[splittedUrl.length - 1];
-    console.log("id", id);
     const response = await getProductByID(id);
     res.status(OK).json(serializeProduct(response));
   } catch (error) {
+    console.log(error);
     res.status(PRECONDITION_FAILED).json({ error: "Server Error" });
   }
 };

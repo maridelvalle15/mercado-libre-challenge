@@ -55,7 +55,7 @@ ProductCard.propTypes = {
   freeShipping: PropTypes.bool,
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
   location: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired
 };

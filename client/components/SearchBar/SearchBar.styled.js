@@ -14,6 +14,7 @@ export const StyledLogoContainer = styled.div`
 
 export const StyledLogo = styled.img`
   max-height: 100%;
+  cursor: pointer;
 `;
 
 export const StyledSearchContainer = styled.div`

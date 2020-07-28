@@ -1,13 +1,13 @@
 const createEndpoint = api => {
   const tales = {};
   Object.keys(api.endpoints).forEach(key => {
-    const uri = api.endpoints[key].uri;
     tales[key] = params => {
+      let uri = api.endpoints[key].uri;
       Object.keys(params).forEach(param => {
         uri = uri.replace(param, params[param]);
       });
-      return fetch(api.baseURL + api.endpoints[key].uri, {
-        method: api.endpoints[key]
+      return fetch(encodeURI(`${api.baseURL}${uri}`), {
+        method: api.endpoints[key].method
       });
     };
   });
@@ -17,7 +17,7 @@ const createEndpoint = api => {
 class ApiLoader {
   static boot(App) {
     const { apis } = App.config;
-    const api = [];
+    const api = {};
     Object.keys(apis).forEach(key => {
       api[key] = createEndpoint(apis[key]);
     });

@@ -10,7 +10,13 @@ import {
   StyledSearchContainer
 } from "./SearchBar.styled";
 
-const SearchBar = ({ logo, placeholder, onSearch }) => {
+const SearchBar = ({
+  logo,
+  placeholder,
+  onClickLogo,
+  onSearch,
+  defaultTerm
+}) => {
   const [searchTerm, setSearchTerm] = useState("");
   const onKeyPress = e => {
     e.which === 13 && onSearch(searchTerm);
@@ -22,13 +28,14 @@ const SearchBar = ({ logo, placeholder, onSearch }) => {
     <StyledSearchBar>
       <Container direction="row">
         <StyledLogoContainer>
-          <StyledLogo src={logo} />
+          <StyledLogo onClick={() => onClickLogo()} src={logo} />
         </StyledLogoContainer>
         <StyledSearchContainer>
           <StyledSearchInput
             placeholder={placeholder}
             onKeyPress={onKeyPress}
             onChange={onChange}
+            defaultValue={defaultTerm}
           />
           <StyledSearchButton onClick={() => onSearch(searchTerm)} />
         </StyledSearchContainer>
@@ -40,11 +47,14 @@ const SearchBar = ({ logo, placeholder, onSearch }) => {
 SearchBar.propTypes = {
   logo: PropTypes.string.isRequired,
   onSearch: PropTypes.func.isRequired,
-  placeholder: PropTypes.string
+  onClickLogo: PropTypes.func.isRequired,
+  placeholder: PropTypes.string,
+  defaultTerm: PropTypes.string
 };
 
 SearchBar.defaultProps = {
-  placeholder: "Nunca dejes de buscar"
+  placeholder: "Nunca dejes de buscar",
+  defaultTerm: ""
 };
 
 export default SearchBar;

@@ -1,4 +1,8 @@
 import React from "react";
+import App from "@config/app";
+import useFetch from "@hooks/useFetch";
+import { useParams } from "react-router-dom";
+import Loader from "@components/Loader/Loader";
 import Button from "@components/Button/Button";
 import MainLayout from "@layouts/MainLayout/MainLayout";
 import Typography from "@components/Typography/Typography";
@@ -9,37 +13,51 @@ import {
   StyledDescription,
   StyledImageContainer
 } from "./ProductDetail.styled";
+
 const ProductDetail = () => {
-  const product = {
-    title: "Deco master test Oxford magic",
-    price: "1.900",
-    condition: "Nuevo",
-    sold_quantity: "200",
-    image: "https://picsum.photos/id/180/680/680",
-    description:
-      "Elit aliquip aliquip in ullamco consequat voluptate. Ea ipsum excepteur nostrud proident. Fugiat irure aliqua ad culpa quis Lorem eiusmod in veniam Lorem. Elit aliquip aliquip in ullamco consequat voluptate. Ea ipsum excepteur nostrud proident. Fugiat irure aliqua ad culpa quis Lorem eiusmod in veniam Lorem."
+  let { id } = useParams();
+  const { response, error, isLoading } = useFetch(
+    App.api.mercadoLibre.productDetail({ id })
+  );
+  const conditionFormatter = () => {
+    switch (response.item.condition) {
+      case "new":
+        return "Nuevo";
+      default:
+        return "Usado";
+    }
   };
   return (
     <MainLayout>
-      <StyledHead>
-        <StyledImageContainer>
-          <StyledImage src={product.image} />
-        </StyledImageContainer>
-        <StyledInformation>
-          <Typography type="caption">
-            {`${product.condition} - ${product.sold_quantity} vendidos`}
-          </Typography>
-          <Typography type="h3" fontWeight="800">
-            {product.title}
-          </Typography>
-          <Typography type="h1">$ {product.price}</Typography>
-          <Button onClick={() => console.log("Coming soon")}>Comprar</Button>
-        </StyledInformation>
-      </StyledHead>
-      <StyledDescription>
-        <Typography type="h2">Descripcion del product</Typography>
-        <Typography>{product.description}</Typography>
-      </StyledDescription>
+      {response ? (
+        <>
+          <StyledHead>
+            <StyledImageContainer>
+              <StyledImage src={response.item.picture} />
+            </StyledImageContainer>
+            <StyledInformation>
+              <Typography type="caption">
+                {`${conditionFormatter()} - ${
+                  response.item.sold_quantity
+                } vendidos`}
+              </Typography>
+              <Typography type="h3" fontWeight="800">
+                {response.item.title}
+              </Typography>
+              <Typography type="h1">$ {response.item.price.amount}</Typography>
+              <Button onClick={() => console.log("Coming soon")}>
+                Comprar
+              </Button>
+            </StyledInformation>
+          </StyledHead>
+          <StyledDescription>
+            <Typography type="h2">Descripcion del product</Typography>
+            <Typography>{response.item.description}</Typography>
+          </StyledDescription>
+        </>
+      ) : (
+        <Loader />
+      )}
     </MainLayout>
   );
 };

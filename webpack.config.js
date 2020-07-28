@@ -3,7 +3,7 @@ const Dotenv = require("dotenv-webpack");
 const path = require("path");
 
 module.exports = {
-  entry: "./client/index.js",
+  entry: ["@babel/polyfill", "./client/index.js"],
   module: {
     rules: [
       {
@@ -45,6 +45,7 @@ module.exports = {
       "@layouts": path.resolve(__dirname, "client/layouts"),
       "@assets": path.resolve(__dirname, "client/assets"),
       "@config": path.resolve(__dirname, "client/config"),
+      "@hooks": path.resolve(__dirname, "client/hooks"),
       "@pages": path.resolve(__dirname, "client/pages")
     }
   },
