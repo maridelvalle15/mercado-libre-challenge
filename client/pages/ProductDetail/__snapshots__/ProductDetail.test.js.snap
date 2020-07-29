@@ -23,7 +23,7 @@ exports[`ProductDetail should render 1`] = `
         className="sc-18pr4qs-3 ePKDzW"
       >
         <input
-          className="sc-18pr4qs-4 gfnSjD"
+          className="sc-18pr4qs-4 cvkpFQ"
           defaultValue=""
           onChange={[Function]}
           onKeyPress={[Function]}
@@ -41,7 +41,7 @@ exports[`ProductDetail should render 1`] = `
     direction="column"
   >
     <div
-      className="f30fgq-0 yzvGv"
+      className="f30fgq-0 yyYCq"
     >
       <div
         className="sc-1g2dfmx-1 iJYVVG"

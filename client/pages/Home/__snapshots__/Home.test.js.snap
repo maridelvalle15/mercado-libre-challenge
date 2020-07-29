@@ -23,7 +23,7 @@ exports[`Home should render 1`] = `
         className="sc-18pr4qs-3 ePKDzW"
       >
         <input
-          className="sc-18pr4qs-4 gfnSjD"
+          className="sc-18pr4qs-4 cvkpFQ"
           defaultValue=""
           onChange={[Function]}
           onKeyPress={[Function]}

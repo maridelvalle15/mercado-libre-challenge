@@ -27,6 +27,8 @@ export const StyledSearchInput = styled.input`
   border-radius: ${({ theme }) => theme.borderRadius.normal};
   font-size: ${({ theme }) => theme.fontSize.medium};
   font-family: ${({ theme }) => theme.fontFamily};
+  background: ${({ theme }) => theme.colors.backgroundInput};
+  color: ${({ theme }) => theme.colors.font.normal};
   box-sizing: border-box;
   outline: none;
   border: none;
@@ -40,7 +42,11 @@ export const StyledSearchInput = styled.input`
 export const StyledSearchButton = styled.div`
   border-radius: ${({ theme }) =>
     `0  ${theme.borderRadius.normal} ${theme.borderRadius.normal} 0`};
-  background: url(${searchIcon}), ${({ theme }) => theme.colors.background};
+  background: url(${searchIcon}),
+    ${({ theme }) =>
+      theme.name === "Light"
+        ? theme.colors.background
+        : theme.colors.backgroundContent};
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;

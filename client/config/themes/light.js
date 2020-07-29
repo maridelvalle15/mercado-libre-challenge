@@ -8,6 +8,7 @@ export default {
     primary: "#FFE600",
     secondary: "#3483FA",
     background: "#EEEEEE",
+    backgroundInput: "#FFFFFF",
     transparent: "transparent",
     backgroundContent: "#FFFFFF",
     icon: {

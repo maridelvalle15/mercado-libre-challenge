@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render 1`] = `
+<div
+  className="g8qojs-0 kZwxWn"
+>
+  <div
+    className="sc-1os0qt1-0 ecarEL"
+    direction="row"
+  >
+    <p
+      className="sc-1hvrgbn-6 dLBAqy"
+      color="normal"
+      fontWeight="normal"
+      type="small"
+    >
+      Texto de prueba /
+    </p>
+    <div
+      className="g8qojs-1 kUTPnn"
+      onClick={[Function]}
+    >
+      <p
+        className="sc-1hvrgbn-6 dLBAqy"
+        color="normal"
+        fontWeight="normal"
+        type="small"
+      >
+        Cambiar tema
+      </p>
+    </div>
+  </div>
+</div>
+`;
