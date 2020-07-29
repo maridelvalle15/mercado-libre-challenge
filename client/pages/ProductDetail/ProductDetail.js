@@ -33,7 +33,10 @@ const ProductDetail = () => {
         <>
           <StyledHead>
             <StyledImageContainer>
-              <StyledImage src={response.item.picture} />
+              <StyledImage
+                src={response.item.picture}
+                alt={response.item.title}
+              />
             </StyledImageContainer>
             <StyledInformation>
               <Typography type="caption">

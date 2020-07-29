@@ -2,7 +2,7 @@
 
 exports[`Typography should render h1 tag 1`] = `
 <h1
-  className="obo2vd-0 dzSENk"
+  className="sc-1hvrgbn-0 csixHB"
   color="normal"
   fontWeight="normal"
   type="h1"
@@ -13,7 +13,7 @@ exports[`Typography should render h1 tag 1`] = `
 
 exports[`Typography should render p tag 1`] = `
 <p
-  className="obo2vd-4 dtFZux"
+  className="sc-1hvrgbn-4 hzedTQ"
   color="normal"
   fontWeight="normal"
   type="paragraph"

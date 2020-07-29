@@ -2,37 +2,38 @@
 
 exports[`ProductCard should render with freeShipping 1`] = `
 <div
-  className="y2k85v-0 jxQjHS"
+  className="sc-1vcrerw-0 fyisJe"
   onClick={[Function]}
 >
   <div
-    className="y2k85v-1 kIXagQ"
+    className="sc-1vcrerw-1 gJbBzo"
   >
     <img
-      className="y2k85v-2 fIdIsj"
+      alt="Macbook pro retina 2020 casi nuevo completo unico fabuloso!"
+      className="sc-1vcrerw-2 cYsGKr"
       src="https://picsum.photos/id/180/180/180"
     />
   </div>
   <div
-    className="y2k85v-3 bdLeSw"
+    className="sc-1vcrerw-3 gnaNrs"
   >
     <div
-      className="y2k85v-4 fUuhkr"
+      className="sc-1vcrerw-4 dLhRGj"
     >
       <h3
-        className="obo2vd-2 dwHcWW"
+        className="sc-1hvrgbn-2 cQOGsr"
         color="normal"
         fontWeight="normal"
         type="h3"
       >
         $
-        1.980
+        1980
         <div
-          className="y2k85v-5 dvNhyE"
+          className="sc-1vcrerw-5 fIzIbk"
         />
       </h3>
       <p
-        className="obo2vd-3 hxdhNI"
+        className="sc-1hvrgbn-3 kUhjhB"
         color="normal"
         fontWeight="normal"
         type="medium"
@@ -41,10 +42,10 @@ exports[`ProductCard should render with freeShipping 1`] = `
       </p>
     </div>
     <div
-      className="y2k85v-6 bkcQQl"
+      className="sc-1vcrerw-6 bSwEdh"
     >
       <p
-        className="obo2vd-6 dYbffT"
+        className="sc-1hvrgbn-6 gGGelS"
         color="normal"
         fontWeight="normal"
         type="small"
@@ -58,33 +59,34 @@ exports[`ProductCard should render with freeShipping 1`] = `
 
 exports[`ProductCard should render without freeShipping 1`] = `
 <div
-  className="y2k85v-0 jxQjHS"
+  className="sc-1vcrerw-0 fyisJe"
   onClick={[Function]}
 >
   <div
-    className="y2k85v-1 kIXagQ"
+    className="sc-1vcrerw-1 gJbBzo"
   >
     <img
-      className="y2k85v-2 fIdIsj"
+      alt="Macbook pro retina 2020 casi nuevo completo unico fabuloso!"
+      className="sc-1vcrerw-2 cYsGKr"
       src="https://picsum.photos/id/180/180/180"
     />
   </div>
   <div
-    className="y2k85v-3 bdLeSw"
+    className="sc-1vcrerw-3 gnaNrs"
   >
     <div
-      className="y2k85v-4 fUuhkr"
+      className="sc-1vcrerw-4 dLhRGj"
     >
       <h3
-        className="obo2vd-2 dwHcWW"
+        className="sc-1hvrgbn-2 cQOGsr"
         color="normal"
         fontWeight="normal"
         type="h3"
       >
-        $ 1.980
+        $ 1980
       </h3>
       <p
-        className="obo2vd-3 hxdhNI"
+        className="sc-1hvrgbn-3 kUhjhB"
         color="normal"
         fontWeight="normal"
         type="medium"
@@ -93,10 +95,10 @@ exports[`ProductCard should render without freeShipping 1`] = `
       </p>
     </div>
     <div
-      className="y2k85v-6 bkcQQl"
+      className="sc-1vcrerw-6 bSwEdh"
     >
       <p
-        className="obo2vd-6 dYbffT"
+        className="sc-1hvrgbn-6 gGGelS"
         color="normal"
         fontWeight="normal"
         type="small"

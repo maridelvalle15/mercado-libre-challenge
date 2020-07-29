@@ -13,7 +13,7 @@ describe("ProductCard", () => {
         <ProductCard
           id="123"
           image="https://picsum.photos/id/180/180/180"
-          price="1.980"
+          price={1980}
           title="Macbook pro retina 2020 casi nuevo completo unico fabuloso!"
           location="Mendoza"
           freeShipping={true}
@@ -30,7 +30,7 @@ describe("ProductCard", () => {
         <ProductCard
           id="1223"
           image="https://picsum.photos/id/180/180/180"
-          price="1.980"
+          price={1980}
           title="Macbook pro retina 2020 casi nuevo completo unico fabuloso!"
           location="Mendoza"
           freeShipping={false}
@@ -48,7 +48,7 @@ describe("ProductCard", () => {
         <ProductCard
           id="1f23"
           image="https://picsum.photos/id/180/180/180"
-          price="1.980"
+          price={1980}
           title="Macbook pro retina 2020 casi nuevo completo unico fabuloso!"
           location="Mendoza"
           freeShipping={false}
@@ -56,7 +56,10 @@ describe("ProductCard", () => {
         />
       </ThemeProvider>
     );
-    wrapper.find("div").first().simulate("click");
+    wrapper
+      .find("div")
+      .first()
+      .simulate("click");
     expect(spy).toHaveBeenCalled();
   });
 });

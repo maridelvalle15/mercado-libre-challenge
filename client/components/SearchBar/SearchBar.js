@@ -28,7 +28,11 @@ const SearchBar = ({
     <StyledSearchBar>
       <Container direction="row">
         <StyledLogoContainer>
-          <StyledLogo onClick={() => onClickLogo()} src={logo} />
+          <StyledLogo
+            onClick={() => onClickLogo()}
+            src={logo}
+            alt="Mercado Libre"
+          />
         </StyledLogoContainer>
         <StyledSearchContainer>
           <StyledSearchInput

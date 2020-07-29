@@ -2,31 +2,34 @@
 
 exports[`SearchBar should render 1`] = `
 <div
-  className="sc-1yye7vx-0 fqiRkl"
+  className="sc-18pr4qs-0 eyHxCt"
 >
   <div
-    className="sc-1ctswtc-0 kWOxtL"
+    className="sc-1os0qt1-0 ecarEL"
     direction="row"
   >
     <div
-      className="sc-1yye7vx-1 tIPbA"
+      className="sc-18pr4qs-1 jjdFVY"
     >
       <img
-        className="sc-1yye7vx-2 dqNuJn"
+        alt="Mercado Libre"
+        className="sc-18pr4qs-2 hvNeoX"
+        onClick={[Function]}
         src="potato.png"
       />
     </div>
     <div
-      className="sc-1yye7vx-3 bhyxsm"
+      className="sc-18pr4qs-3 ePKDzW"
     >
       <input
-        className="sc-1yye7vx-4 ixEbfT"
+        className="sc-18pr4qs-4 gfnSjD"
+        defaultValue=""
         onChange={[Function]}
         onKeyPress={[Function]}
         placeholder="Nunca dejes de buscar"
       />
       <div
-        className="sc-1yye7vx-5 jIjCdQ"
+        className="sc-18pr4qs-5 bUzMWw"
         onClick={[Function]}
       />
     </div>

@@ -12,6 +12,7 @@ describe("SearchBar", () => {
       <ThemeProvider theme={LightTheme}>
         <SearchBar
           logo={"potato.png"}
+          onClickLogo={() => console.log("logo click")}
           placeholder="Nunca dejes de buscar"
           onSearch={value => console.log(value)}
         />
@@ -26,6 +27,7 @@ describe("SearchBar", () => {
       <ThemeProvider theme={LightTheme}>
         <SearchBar
           logo={"potato.png"}
+          onClickLogo={() => console.log("logo click")}
           placeholder="Nunca dejes de buscar"
           onSearch={value => spy(value)}
         />

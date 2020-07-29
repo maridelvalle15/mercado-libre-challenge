@@ -33,7 +33,7 @@ const ProductCard = ({
   return (
     <StyledProductCard onClick={() => onClick(id)}>
       <StyledProductImageContainer>
-        <StyledImage src={image} />
+        <StyledImage src={image} alt={title} />
       </StyledProductImageContainer>
       <StyledProductInformation>
         <StyledProductDescription>
