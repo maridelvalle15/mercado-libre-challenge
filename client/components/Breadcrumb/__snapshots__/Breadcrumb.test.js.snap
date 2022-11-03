@@ -2,13 +2,13 @@
 
 exports[`Breadcrumb should render 1`] = `
 <div
-  className="qg2tkp-0 hIrIhx"
+  className="qg2tkp-0 iOKhon"
 >
   <div
-    className="qg2tkp-1 eOYxwL"
+    className="qg2tkp-1 fWInI"
   >
     <p
-      className="sc-1hvrgbn-5 frCBin"
+      className="sc-1hvrgbn-5 bZuxXK"
       color="light"
       fontWeight="normal"
       type="caption"
@@ -17,10 +17,10 @@ exports[`Breadcrumb should render 1`] = `
     </p>
   </div>
   <div
-    className="qg2tkp-1 eOYxwL"
+    className="qg2tkp-1 fWInI"
   >
     <p
-      className="sc-1hvrgbn-5 frCBin"
+      className="sc-1hvrgbn-5 bZuxXK"
       color="light"
       fontWeight="normal"
       type="caption"
@@ -29,10 +29,10 @@ exports[`Breadcrumb should render 1`] = `
     </p>
   </div>
   <div
-    className="qg2tkp-1 eOYxwL"
+    className="qg2tkp-1 fWInI"
   >
     <p
-      className="sc-1hvrgbn-5 frCBin"
+      className="sc-1hvrgbn-5 bZuxXK"
       color="light"
       fontWeight="normal"
       type="caption"

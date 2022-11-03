@@ -2,26 +2,26 @@
 
 exports[`ProductCard should render with freeShipping 1`] = `
 <div
-  className="sc-1vcrerw-0 fyisJe"
+  className="sc-1vcrerw-0 gGATDS"
   onClick={[Function]}
 >
   <div
-    className="sc-1vcrerw-1 gJbBzo"
+    className="sc-1vcrerw-1 kNEBEM"
   >
     <img
       alt="Macbook pro retina 2020 casi nuevo completo unico fabuloso!"
-      className="sc-1vcrerw-2 cYsGKr"
+      className="sc-1vcrerw-2 eaxdHU"
       src="https://picsum.photos/id/180/180/180"
     />
   </div>
   <div
-    className="sc-1vcrerw-3 gnaNrs"
+    className="sc-1vcrerw-3 clpCtE"
   >
     <div
-      className="sc-1vcrerw-4 dLhRGj"
+      className="sc-1vcrerw-4 bxDvQl"
     >
       <h3
-        className="sc-1hvrgbn-2 cQOGsr"
+        className="sc-1hvrgbn-2 izPoLH"
         color="normal"
         fontWeight="normal"
         type="h3"
@@ -29,11 +29,11 @@ exports[`ProductCard should render with freeShipping 1`] = `
         $
         1980
         <div
-          className="sc-1vcrerw-5 fIzIbk"
+          className="sc-1vcrerw-5 dOboZJ"
         />
       </h3>
       <p
-        className="sc-1hvrgbn-3 kUhjhB"
+        className="sc-1hvrgbn-3 bzBTtE"
         color="normal"
         fontWeight="normal"
         type="medium"
@@ -42,10 +42,10 @@ exports[`ProductCard should render with freeShipping 1`] = `
       </p>
     </div>
     <div
-      className="sc-1vcrerw-6 bSwEdh"
+      className="sc-1vcrerw-6 eMkNFq"
     >
       <p
-        className="sc-1hvrgbn-6 gGGelS"
+        className="sc-1hvrgbn-6 dVunXM"
         color="normal"
         fontWeight="normal"
         type="small"
@@ -59,26 +59,26 @@ exports[`ProductCard should render with freeShipping 1`] = `
 
 exports[`ProductCard should render without freeShipping 1`] = `
 <div
-  className="sc-1vcrerw-0 fyisJe"
+  className="sc-1vcrerw-0 gGATDS"
   onClick={[Function]}
 >
   <div
-    className="sc-1vcrerw-1 gJbBzo"
+    className="sc-1vcrerw-1 kNEBEM"
   >
     <img
       alt="Macbook pro retina 2020 casi nuevo completo unico fabuloso!"
-      className="sc-1vcrerw-2 cYsGKr"
+      className="sc-1vcrerw-2 eaxdHU"
       src="https://picsum.photos/id/180/180/180"
     />
   </div>
   <div
-    className="sc-1vcrerw-3 gnaNrs"
+    className="sc-1vcrerw-3 clpCtE"
   >
     <div
-      className="sc-1vcrerw-4 dLhRGj"
+      className="sc-1vcrerw-4 bxDvQl"
     >
       <h3
-        className="sc-1hvrgbn-2 cQOGsr"
+        className="sc-1hvrgbn-2 izPoLH"
         color="normal"
         fontWeight="normal"
         type="h3"
@@ -86,7 +86,7 @@ exports[`ProductCard should render without freeShipping 1`] = `
         $ 1980
       </h3>
       <p
-        className="sc-1hvrgbn-3 kUhjhB"
+        className="sc-1hvrgbn-3 bzBTtE"
         color="normal"
         fontWeight="normal"
         type="medium"
@@ -95,10 +95,10 @@ exports[`ProductCard should render without freeShipping 1`] = `
       </p>
     </div>
     <div
-      className="sc-1vcrerw-6 bSwEdh"
+      className="sc-1vcrerw-6 eMkNFq"
     >
       <p
-        className="sc-1hvrgbn-6 gGGelS"
+        className="sc-1hvrgbn-6 dVunXM"
         color="normal"
         fontWeight="normal"
         type="small"

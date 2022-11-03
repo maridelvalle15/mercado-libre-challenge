@@ -2,14 +2,14 @@
 
 exports[`Footer should render 1`] = `
 <div
-  className="g8qojs-0 kZwxWn"
+  className="g8qojs-0 kQTLEp"
 >
   <div
-    className="sc-1os0qt1-0 ecarEL"
+    className="sc-1os0qt1-0 ixyyBw"
     direction="row"
   >
     <p
-      className="sc-1hvrgbn-6 dLBAqy"
+      className="sc-1hvrgbn-6 eYrVMp"
       color="normal"
       fontWeight="normal"
       type="small"
@@ -17,11 +17,11 @@ exports[`Footer should render 1`] = `
       Texto de prueba /
     </p>
     <div
-      className="g8qojs-1 kUTPnn"
+      className="g8qojs-1 dHIyst"
       onClick={[Function]}
     >
       <p
-        className="sc-1hvrgbn-6 dLBAqy"
+        className="sc-1hvrgbn-6 eYrVMp"
         color="normal"
         fontWeight="normal"
         type="small"
