@@ -6,6 +6,6 @@ const loaders = [ApiLoader];
 export default class App {
   static boot() {
     this.config = config;
-    return Promise.all(loaders.map(s => s.boot(App)));
+    return Promise.all(loaders.map(s => { return s.boot(App)}));
   }
 }
