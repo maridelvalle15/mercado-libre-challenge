@@ -6,8 +6,6 @@ const loaders = [ApiLoader];
 export default class App {
   static boot() {
     this.config = config;
-    return Promise.all(loaders.map(s => s.boot(App)))
-      .then(() => true)
-      .catch(err => console.error("Error while booting the app", err));
+    return Promise.all(loaders.map(s => s.boot(App)));
   }
 }
