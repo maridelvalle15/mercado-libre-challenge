@@ -7,7 +7,10 @@ export default class App {
   static boot() {
     this.config = config;
     return Promise.all(loaders.map(s => s.boot(App)))
-      .then(() => console.info("Loaders done!"))
+      .then(() => {
+        console.info("Loaders done!");
+        return true;
+      })
       .catch(err => console.error("Error while booting the app", err));
   }
 }
