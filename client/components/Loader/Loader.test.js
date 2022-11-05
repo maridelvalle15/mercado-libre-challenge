@@ -1,6 +1,5 @@
 import React from "react";
 import Loader from "./Loader";
-import { mount } from "enzyme";
 
 import renderer from "react-test-renderer";
 import LightTheme from "@config/themes/light";
