@@ -12,7 +12,7 @@ const ProductList = ({ search }) => {
   const query = useQuery();
   const history = useHistory();
   const termToSearch = query.get("search");
-  const { response, error, isLoading } = useFetch(
+  const { response } = useFetch(
     App.api.mercadoLibre.searchProduct({ query: termToSearch }),
     termToSearch
   );
