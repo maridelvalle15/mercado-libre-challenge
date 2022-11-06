@@ -16,7 +16,7 @@ import {
 
 const ProductDetail = () => {
   let { id } = useParams();
-  const { response, isLoading } = useFetch(
+  const { response } = useFetch(
     App.api.mercadoLibre.productDetail({ id })
   );
   const conditionFormatter = () => {
