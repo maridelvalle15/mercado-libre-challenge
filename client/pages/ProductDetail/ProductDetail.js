@@ -23,8 +23,10 @@ const ProductDetail = () => {
     switch (response.item.condition) {
       case "new":
         return "Nuevo";
-      default:
+      case "used":
         return "Usado";
+      default:
+        return "No lo sabemos";
     }
   };
   return (
